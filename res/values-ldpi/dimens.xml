@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bar_height">60dp</dimen>
+    <dimen name="back_but_height">44dp</dimen>
+    <dimen name="back_but_width">76dp</dimen>
+    
+    <dimen name="menu_button_height">70dp</dimen>
+    <dimen name="menu_button_width">250dp</dimen>
+    <dimen name="menu_layout_margin">10dp</dimen>
+    <dimen name="logo_height">280dp</dimen>
+    <dimen name="text_size">22sp</dimen>
+    
+    
+    <dimen name="column_width">70dp</dimen>
+    <dimen name="column_but_width">130dp</dimen>
+    <dimen name="column_but_height">160dp</dimen>
+    
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="game_text_size">14sp</dimen>
+    <dimen name="end_game_button_width">230dp</dimen>
+</resources>

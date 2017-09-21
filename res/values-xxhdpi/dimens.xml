@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+  
+    <dimen name="menu_button_height">80dp</dimen>
+    <dimen name="menu_button_width">320dp</dimen>
+    <dimen name="menu_layout_margin">15dp</dimen>
+    <dimen name="logo_height">200dp</dimen>
+    <dimen name="text_size">32sp</dimen>
+    
+    
+    <dimen name="column_layout_margin_top">27dp</dimen>
+    <dimen name="column_width">70dp</dimen>
+    <dimen name="column_height">35dp</dimen>
+    <dimen name="column_but_width">67dp</dimen>
+    <dimen name="column_but_height">87dp</dimen>
+    
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="game_text_size">14sp</dimen>
+    <dimen name="end_game_button_width">230dp</dimen>
+    
+    <dimen name="game_image_height">190dp</dimen>
+    <dimen name="game_image_width">150dp</dimen>
+    <dimen name="game_question_text_size">20sp</dimen>
+    <dimen name="game_button_height">40dp</dimen>
+    
+    <dimen name="end_game_image_height">290dp</dimen>
+    <dimen name="end_game_image_width">250dp</dimen>
+   
+
+</resources>

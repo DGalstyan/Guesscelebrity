@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/settingsContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_dialog"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:id="@+id/pleaseRateOurAppTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+     
+
+        <LinearLayout
+            android:id="@+id/rateButtonHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+	          <Button
+	                android:id="@+id/answer1"
+	                android:layout_width="250dp"
+	                android:layout_height="60dp"
+	                android:layout_marginTop="7dip"
+	                android:background="@drawable/answare_button_style"
+	                android:textColor="#fff"
+	                android:textSize="22sp"
+	                android:textStyle="bold" />
+	
+	            <Button
+	                android:id="@+id/answer2"
+	                android:layout_width="250dp"
+	                android:layout_height="60dp"
+	                android:layout_marginTop="7dip"
+	                android:background="@drawable/answare_button_style"
+	                android:textColor="#fff"
+	                android:textSize="22sp"
+	                android:textStyle="bold" />
+	
+	            <Button
+	                android:id="@+id/answer3"
+	                android:layout_width="250dp"
+	                 android:layout_height="60dp"
+	                android:layout_marginTop="7dip"
+	                android:background="@drawable/answare_button_style"
+	                android:textColor="#fff"
+	                android:textSize="22sp"
+	                android:textStyle="bold" />
+	
+	            <Button
+	                android:id="@+id/answer4"
+	                android:layout_width="250dp"
+	                 android:layout_height="60dp"
+	                android:layout_marginTop="7dip"
+	                android:background="@drawable/answare_button_style"
+	                android:textColor="#fff"
+	                android:textSize="22sp"
+	                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

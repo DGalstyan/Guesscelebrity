@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menu_button_height">60dp</dimen>
+    <dimen name="menu_button_width">250dp</dimen>
+    <dimen name="menu_layout_margin">15dp</dimen>
+</resources>

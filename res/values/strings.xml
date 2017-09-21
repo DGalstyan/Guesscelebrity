@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Guess the Celebrity</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_easy_text">Easy</string>
+    <string name="button_normal_text">Normal</string>
+    <string name="button_hard_text">Hard</string>
+    <string name="button_settings">Settings</string>
+    <string name="dialog_sound_title">Sound</string>
+    <string name="dialog_rate_app_title">Please Rate Our Game</string>
+    <string name="no_thanks">No, thanks</string>
+	<string name="remind">Remind me later</string>
+	<string name="rate">Rate</string>
+	<string name="guess">Guess</string>
+	<string name="rate1">If you enjoy using</string>
+	<string name="rate2">please take a moment to rate it. Thanks for your support!</string>
+	<string name="ok">OK</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7397122962044844/4891784219</string>
+    <string name="button_help">Help</string>
+    <string name="help_content">Guess the pictures of different celebs.</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_supportus">Support us</string>
+    <string name="menu_getgold">Get Gold</string>
+    <string name="moved">Moved:</string>
+    <string name="time">Time:</string>
+    <string name="goon">Go on</string>
+    <string name="replay">Replay</string>
+    <string name="timeused">Time:</string>
+    <string name="moveused">Move:</string>
+    <string name="share">Share</string>
+   <string name="save">Save</string>
+    <string name="levelstr">Level: </string>
+    <string name="currentpoint">Gold: </string>
+    <string name="pointname">G</string>
+    <string name="menusetting">Settings</string>
+    <string name="clearlocaldata">Clear</string>
+    <string name="cancel">Cancel</string>
+    <string name="localaward">2</string>
+    <string name="worldaward">10</string>
+    
+    <string name="thanks">Thanks for playing this game.\n\nIf you like it, please do me a favor by clicking the ad which you are interested in.</string>
+ 
+     <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="review">Review</string>
+    
+    <string name="action_share">Share</string>
+    <string name="share_name">I like Guess the Celebrity game !! I remember it ! Try it;</string>
+  
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >  
+
+        <LinearLayout
+            android:id="@+id/topMatroshkaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3" >
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="@dimen/game_image_width"
+            android:layout_height="@dimen/game_image_height"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+               />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:layout_below="@+id/topBarLayout"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/bottomMatroshkaLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dip"
+                android:gravity="left|center_vertical"
+                android:text="@string/app_name"
+                android:textColor="#fff"
+                android:textSize="@dimen/game_question_text_size"
+                android:textStyle="bold" >
+            </TextView>
+
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="400dp"
+                 android:layout_height="70dp"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/answare_button_style"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="400dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/answare_button_style"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="400dp"
+                 android:layout_height="70dp"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/answare_button_style"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/answer4"
+                android:layout_width="400dp"
+                 android:layout_height="70dp"
+                android:layout_marginTop="8dip"
+                android:background="@drawable/answare_button_style"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+       
+    </LinearLayout>
+
+ <LinearLayout
+     android:id="@+id/advertisementLayout"
+     android:layout_width="fill_parent"
+     android:layout_height="80dp"
+     android:layout_alignBottom="@+id/bottomBar"
+     android:layout_alignParentBottom="true"
+     android:background="@android:color/black"
+     android:gravity="center"
+     android:orientation="vertical" >
+ </LinearLayout>
+
+</RelativeLayout>

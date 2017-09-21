@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/topBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bar_height"
+        android:background="@drawable/bar_plate"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/backMenuButton"
+            android:layout_width="@dimen/back_but_width"
+            android:layout_height="@dimen/back_but_height"
+            android:background="@drawable/icon_back" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/logo_width"
+            android:layout_height="@dimen/back_but_height"
+            android:src="@drawable/logo_en" />
+
+    </LinearLayout>        
+		<GridView
+		    android:id="@+id/gridview"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"		    
+		    android:columnWidth="@dimen/column_width"
+		    android:gravity="center"
+		    android:horizontalSpacing="10dp"
+		    android:numColumns="auto_fit"
+		    android:stretchMode="columnWidth"
+		    android:verticalSpacing="10dp" />
+		
+</LinearLayout>

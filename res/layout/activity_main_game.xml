@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.guess.celebrities.MainActivity" >
+
+    <ImageView
+        android:id="@+id/gameLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/logo_height"
+        android:background="@drawable/logo" />
+    
+    <LinearLayout
+        android:id="@+id/menuButtonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/gameLogo"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+	  <Button
+	        android:id="@+id/easy"
+	        android:layout_width="@dimen/menu_button_width"
+	        android:layout_height="@dimen/menu_button_height"
+	        style="@style/menu_button_style"
+	        android:text="@string/button_easy_text"
+	        android:layout_margin="@dimen/menu_layout_margin" />
+	  
+      <Button
+          android:id="@+id/normal"
+          style="@style/menu_button_style"
+          android:layout_width="@dimen/menu_button_width"
+          android:layout_height="@dimen/menu_button_height"
+          android:layout_margin="5dp"
+          android:text="@string/button_normal_text" />
+       
+       <Button
+            android:id="@+id/hard"
+            style="@style/menu_button_style"
+            android:layout_width="@dimen/menu_button_width"
+            android:layout_height="@dimen/menu_button_height"
+            android:layout_margin="@dimen/menu_layout_margin"
+            android:text="@string/button_hard_text" />
+
+       <Button
+            android:id="@+id/settings"
+            style="@style/menu_button_style"
+            android:layout_width="@dimen/menu_button_width"
+            android:layout_height="@dimen/menu_button_height"
+            android:layout_margin="@dimen/menu_layout_margin"
+            android:text="@string/button_settings" />
+ 
+       
+
+   
+     </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="500dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/settingsContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_dialog"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:id="@+id/soundButtonHolder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/soundTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/dialog_sound_title"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+
+            <ToggleButton
+                android:id="@+id/soundSwitcher"
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:background="@drawable/background_sound_switch"
+                android:gravity="end"
+                android:textOff=""
+                android:textOn="" />
+        </LinearLayout>
+        
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/closeSettingsDialogButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background_dialog_close" />
+
+</RelativeLayout>
